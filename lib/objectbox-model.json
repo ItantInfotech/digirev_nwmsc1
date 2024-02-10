@@ -1,0 +1,141 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:7402192783903559409",
+      "lastPropertyId": "14:1892997284057931265",
+      "name": "Review",
+      "properties": [
+        {
+          "id": "1:7662970505366050941",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6620997384843377812",
+          "name": "rank",
+          "type": 9
+        },
+        {
+          "id": "3:3057736100478957853",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:8170717554935357183",
+          "name": "profilePic",
+          "type": 23
+        },
+        {
+          "id": "5:6435100025321097708",
+          "name": "appointment",
+          "type": 9
+        },
+        {
+          "id": "6:1509750836848611275",
+          "name": "address",
+          "type": 9
+        },
+        {
+          "id": "7:8004184223935829200",
+          "name": "hReview",
+          "type": 23
+        },
+        {
+          "id": "8:7146978945979931902",
+          "name": "wReview",
+          "type": 9
+        },
+        {
+          "id": "9:7152779210561217104",
+          "name": "aReview",
+          "type": 9
+        },
+        {
+          "id": "10:8936235480829164606",
+          "name": "signature",
+          "type": 23
+        },
+        {
+          "id": "11:4720608842826598966",
+          "name": "type",
+          "type": 9
+        },
+        {
+          "id": "12:7642537085220134919",
+          "name": "date",
+          "type": 9
+        },
+        {
+          "id": "13:680987485522959423",
+          "name": "status",
+          "type": 9
+        },
+        {
+          "id": "14:1892997284057931265",
+          "name": "client",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:2533960103596687884",
+      "lastPropertyId": "7:6551122496766315075",
+      "name": "Vip",
+      "properties": [
+        {
+          "id": "1:3846266449713767641",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3079572746989282890",
+          "name": "rank",
+          "type": 9
+        },
+        {
+          "id": "3:3385677851898152557",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:2602656728048344819",
+          "name": "profilepic",
+          "type": 23
+        },
+        {
+          "id": "5:2863597855324776069",
+          "name": "appointment",
+          "type": 9
+        },
+        {
+          "id": "6:5503881412857237857",
+          "name": "address",
+          "type": 9
+        },
+        {
+          "id": "7:6551122496766315075",
+          "name": "date",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:2533960103596687884",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
